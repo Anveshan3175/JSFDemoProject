@@ -6,7 +6,7 @@ import javax.faces.event.PhaseListener;
 
 public class LifeCycleListener implements PhaseListener {
 
-    public PhaseId getPhaseId() {
+    public PhaseId getPhaseId() { 
         return PhaseId.ANY_PHASE;
     }
 
